@@ -1,0 +1,29 @@
+{
+  "name": "vagrant/library",
+  "authors": [
+    {
+      "name": "Techstacks",
+      "email": "biraj@techstacksolutions.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "T2mchat\\Providers\\": "../providers/",
+      "T2mchat\\Providers\\Proxies\\": "../providers/proxies/",
+      "T2mchat\\Providers\\Filters\\": "../providers/filters/",
+      "T2mchat\\Handleform\\": "../",
+      "T2mchat\\UserCategory\\": "../",
+      "T2mchat\\Traits\\": "../providers/traits/",
+      "T2mchat\\Statics\\": "../providers/statics/",
+      "T2mchat\\TokenHandler\\": "../"
+    }
+  },
+  "require": {
+    "jenssegers/proxy": "^2.2",
+    "league/oauth2-client": "0.12.1",
+    "zendframework/zend-diactoros": "^1.7",
+    "nesbot/carbon": "^1.22",
+    "firebase/php-jwt": "^5.0",
+    "barryvdh/composer-cleanup-plugin": "^0.2.0"
+  }
+}
